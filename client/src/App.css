@@ -1,0 +1,74 @@
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button.start {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+button.stop {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+button.reset {
+  background-color: #ff9800; /* Orange */
+  color: white;
+}
+
+button.extract {
+  background-color: #2196f3; /* Blue */
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.transcript, .tasks, .calendar-events {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e0f7fa; /* Light cyan */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
